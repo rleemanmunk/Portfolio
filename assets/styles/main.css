@@ -1,0 +1,191 @@
+html, body, .container-fluid {
+    height: 99%;
+    width: 100%;
+}
+body {
+    background-color: rgb(195,195,195);
+}
+.container-fluid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.topbar {
+    display: none;
+    background-color: rgb(25,25,25); 
+    width: 100%;
+    margin-bottom: 10px;
+}
+.topbar ul {
+    background-color: darkred;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.topbar li {
+    float: left;
+}
+.topbar a {
+    display: block;
+    width: 90px;
+    background-color: darkred;
+    font-size: 16px;
+    color: rgb(170,170,170);
+    font-family: 'Oleo Script', Helvetica, sans-serif;
+    text-align: center;
+}
+.topbar #name {
+    background-color: inherit;
+}
+.topbar #profilepic {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.topbar .thumbnail {
+    background-color: rgb(170,170,170);
+}
+.tbaboutme {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    text-align: right;
+    color: rgb(170,170,170);
+    font-size: 22px;
+}
+.sidebar {
+    background-color: rgb(25,25,25); 
+    height: 100%;
+    color: black;
+    padding: 0px;
+    border: solid 4px black;
+    font-family: Georgia, sans-serif;
+    border-radius: 4px;
+    width: 320px;
+    position: relative;
+}
+.content {
+    margin-left: 330px;
+}
+h3,h4 {
+    font-family: 'Oleo Script', Helvetica, sans-serif;
+    font-weight: normal;
+}
+.gallery .thumbnail {
+    margin-bottom: 5px;
+}
+#name {
+    background-color: rgb(120,0,0);
+    color: rgb(170,170,170);
+    padding: 5px;
+    font-family: 'Oleo Script Swash Caps', Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.aboutme {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.aboutme>p {
+    background-color: rgb(195,195,195);
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+    font-size: 12px;
+}
+#aboutsummary {
+    width: 100%;
+}
+.keyband {
+    height: 40px;
+}
+a {
+    color: darkred;
+}
+a:hover, 
+a:focus,
+a:active {
+    color: #6F0000;
+}
+.tabs>a {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 5px;
+    margin-bottom: 10px;
+    background-color: darkred;
+    font-size: 16px;
+    color: rgb(170,170,170);
+    font-family: 'Oleo Script', Helvetica, sans-serif;
+    text-align: right;
+}
+.tabs>a:hover, 
+.tabs>a:focus,
+.tabs>a:active {
+    background-color: #6F0000;
+    text-decoration: none;
+}
+.thumbnail {
+    background-color: black;
+    border: none;
+    padding: 3px;
+}
+.thumbnail#profilepic {
+    padding: 3px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 40%;
+    position: absolute;
+}
+/*RESUME*/
+.location {
+    font-style: italic;
+}
+.indent {
+    margin-left: 20px;
+}
+p {
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+h4, h5, ul {
+    margin-bottom: 0px;
+}
+ul, li {
+    line-height: 1.2;
+    margin: 0px;
+}
+/*PORTFOLIO*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+@media only screen and (max-width: 560px) {
+    html, body, container-fluid, .topbar, .topbar col-xs-12, .row, .col-xs-12, .hnav, .hnav ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar {
+        display: none;
+    }
+    .topbar {
+        display: inherit;
+        margin-bottom: 10px;
+    }
+    .content {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .tbaboutme {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .tbaboutme {
+        font-size: 14px;
+    }
+}
+
