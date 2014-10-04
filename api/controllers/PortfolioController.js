@@ -24,7 +24,13 @@ module.exports = {
     johnsonservicecorps: function (req, res) {
         res.view();
     },
+    shoppinglist: function (req, res) {
+        res.view();
+    },
     succeed: function (req, res) {
+        res.view();
+    },
+    thiswebsite: function (req, res) {
         res.view();
     },
 };
