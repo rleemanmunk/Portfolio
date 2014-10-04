@@ -15,22 +15,7 @@ body {
     width: 100%;
     margin-bottom: 10px;
 }
-.topbar ul {
-    background-color: darkred;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-}
-.topbar li {
-    float: left;
-}
 .topbar a {
-    display: block;
-    width: 90px;
-    background-color: darkred;
-    font-size: 16px;
     color: rgb(170,170,170);
     font-family: 'Oleo Script', Helvetica, sans-serif;
     text-align: center;
@@ -175,8 +160,13 @@ ul, li {
         margin: 0;
         padding: 0;
     }
+    .hnav {
+        width: 100%;
+        background-color: #8B0000;
+        font-size: 28px;
+    }
     .hnav>a {
-        font-size: 16px;
+        margin: 0px;
     }
     .sidebar {
         display: none;
@@ -194,16 +184,22 @@ ul, li {
     .tbaboutme {
         font-size: 19px;
     }
-    .hnav>a {
-        font-size: 16px;
+    .hnav {
+        font-size: 22px;
+    }
+    .topbar a {
+        font-size: 22px;
     }
 }
 @media only screen and (max-width: 430px) {
     .tbaboutme {
         font-size: 14px;
     }
-    .hnav>a {
-        font-size: 10px;
+    .hnav {
+        font-size: 12px;
+    }
+    .topbar a {
+        font-size: 18px;
     }
 }
 
